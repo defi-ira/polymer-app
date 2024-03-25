@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "express": "^4.19.1",
-    "pg": "^8.11.3"
+    "pg": "^8.11.3",
+    "pg-query-stream": "^4.5.3"
   }
 }

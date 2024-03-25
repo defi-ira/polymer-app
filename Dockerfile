@@ -1,6 +1,9 @@
 # Use an official Node.js runtime as a parent image
 FROM node:16-alpine
 
+# Install Docker CLI
+RUN apk add --no-cache docker-cli
+
 WORKDIR /usr/src/app
 
 COPY package*.json ./
