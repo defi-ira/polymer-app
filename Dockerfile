@@ -23,4 +23,4 @@ RUN tsc
 EXPOSE 3000
 
 # Command to run your app using Node.js
-CMD ["node", "dist/app.js"]
+CMD ["node", "dist/main.js"]
